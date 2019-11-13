@@ -52,9 +52,13 @@ Se han creado dos ficheros **MarkDown** con cada nombre y se ha modificado dentr
 Para añadir un nuevo post tendremos que ir a la carpeta **_posts** y crearnos un fichero *markdown* en donde indicaremos nuestro front matter con atributos como el nombre del layout,que se queda como *post*, el title del post, la fecha, etc y el contenido de este como vemos en la imagen. 
 
 Una vez creado y con el server corriendo simplemente al guardar el archivo se nos crea automaticamente, en este caso, una carpeta con el año del post y dentro un *index.html* con el contenido que hemos añadido en él.
+
+
 <img src="img/struct_post.png" alt="Creacion de un nuevo post">
 
-En la siguiente imagen podemos ver como aparecería el *post* en la pagina principal(*parte izquierda de la imagen*) y también como severía el post una vez entremos en él(*parte derecha de la imagen*).        
+
+En la siguiente imagen podemos ver como aparecería el *post* en la pagina principal(*parte izquierda de la imagen*) y también como severía el post una vez entremos en él(*parte derecha de la imagen*).  
+      
 
 <img src="img/post_view.png" alt="Vistazo a la creacion del nuevo post">
 
