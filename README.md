@@ -49,11 +49,14 @@ Se han creado dos ficheros **MarkDown** con cada nombre y se ha modificado dentr
 
 # Añadien un post al proyecto
 
-Esta parte ya estaría hecha guardado en /sites/index.html
-**Porque no se me carga la estructura de article como en el otro post**
-        
-Añadir si esta ok una imagen con el codigo y el servidor corriendo
+Para añadir un nuevo post tendremos que ir a la carpeta **_posts** y crearnos un fichero *markdown* en donde indicaremos nuestro front matter con atributos como el nombre del layout,que se queda como *post*, el title del post, la fecha, etc y el contenido de este como vemos en la imagen. 
 
+Una vez creado y con el server corriendo simplemente al guardar el archivo se nos crea automaticamente, en este caso, una carpeta con el año del post y dentro un *index.html* con el contenido que hemos añadido en él.
+<img src="img/struct_post.png" alt="Creacion de un nuevo post">
+
+En la siguiente imagen podemos ver como aparecería el *post* en la pagina principal(*parte izquierda de la imagen*) y también como severía el post una vez entremos en él(*parte derecha de la imagen*).        
+
+<img src="img/post_view.png" alt="Vistazo a la creacion del nuevo post">
 
 ## 2. Ejercicios realizados <a name="id2"></a>
 
