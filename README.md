@@ -15,10 +15,10 @@ La estructura que viene predefinida en nuestro ejemplo la podemos ver en la sigu
 
 Podemos destacar de esta estructura cosas nuevas como:
 
-*- Los includes* --> Codigo html que se va a poder incluir
-*- Los layouts* --> Plantillas en donde vamos a incluir los ficheros
-*- Los posts* --> Donde crearemos y se almacenarán nuestros posts
-*- _site* --> Tendremos todo el contenido de nuestra página 
+* - Los includes* --> Codigo html que se va a poder incluir
+* - Los layouts* --> Plantillas en donde vamos a incluir los ficheros
+* - Los posts* --> Donde crearemos y se almacenarán nuestros posts
+* - _site* --> Tendremos todo el contenido de nuestra página 
 
 Para familiarizarnos con Jekyl vamos a hacer dos tareas: Añadiremos dos pagina y un post adicionales al proyecto.
 
