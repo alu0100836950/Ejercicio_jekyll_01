@@ -136,10 +136,11 @@ Por lo que el resultado del codigo anterior seria:
 *SOLUCION:*
 
 En la primera línea esta incluyendo un script que viene dado por una ruta absoluta a la pagina donde esta alojado el fichero js.
-En los otros dos casos esta usando la variable **baseurl**, que debe estar inicializada en el *_config.yml* y la esta añadiendo al principio de "/". Por tanto, los enlaces a los script quedarían de la siguiente forma:
+En los otros dos casos esta usando la variable **baseurl**, que debe estar inicializada en el *_config.yml* y la esta añadiendo al principio de "/". 
+Como en nuestro caso **baseurl** = "*/example*" los enlaces a los script quedarían de la siguiente forma:
 
- - *baseurl/assets/js/highlight.js*
- - *baseurl/assets/js/highlight.js*
+ - */example/assets/js/highlight.js*
+ - */example/assets/js/highlight.js*
 
 # Indica el resultado que se obtiene con el siguiente código, sabiendo que paginas corresponde la colección de almacenada en _characters
 
