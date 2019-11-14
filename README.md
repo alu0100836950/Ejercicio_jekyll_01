@@ -59,7 +59,7 @@ Una vez creado y con el server corriendo simplemente al guardar el archivo se no
 
 
 En la siguiente imagen podemos ver como aparecería el *post* en la pagina principal(*parte izquierda de la imagen*) y también como severía el post una vez entremos en él(*parte derecha de la imagen*).  
-      
+
 
 <img src="img/post_view.png" alt="Vistazo a la creacion del nuevo post">
 
@@ -134,6 +134,12 @@ Por lo que el resultado del codigo anterior seria:
   
 ```
 *SOLUCION:*
+
+En la primera línea esta incluyendo un script que viene dado por una ruta absoluta a la pagina donde esta alojado el fichero js.
+En los otros dos casos esta usando la variable **baseurl**, que debe estar inicializada en el *_config.yml* y la esta añadiendo al principio de "/". Por tanto, los enlaces a los script quedarían de la siguiente forma:
+
+ - *baseurl/assets/js/highlight.js*
+ - *baseurl/assets/js/highlight.js*
 
 # Indica el resultado que se obtiene con el siguiente código, sabiendo que paginas corresponde la colección de almacenada en _characters
 
