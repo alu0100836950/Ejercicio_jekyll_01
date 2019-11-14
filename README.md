@@ -1,4 +1,5 @@
-# FRONT_END_EJERCICIOS_JEKYLL
+# Practica de Jekyll
+
 * Alberto Martín Núñez
 
 El objetivo de esta práctica es conocer como es una estrutura con Jekyll y realizar una serie de ejercicios y modificaciones para familiarizarnos con Jekyll.
