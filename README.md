@@ -116,16 +116,16 @@ En el cuerpo del html se incluye un fichero *nav.html* y posteriormente el conte
 
 En el codigo tenemos una etiqueta **footer** (pie de pagina). Dentro de ella hay otra etiquete **p**(párrafo) con una *clase* que se llama small y con un contenido "**© Copyright {{ site.time | date: '%Y' }} {{ site.author }}**" en donde podemos destacar las siguientes variable Jekyll:
 
-*- site.time* devuelve la hora cuando se ejecuta Jekyll en el siguiente formato:
+- *site.time* devuelve la hora cuando se ejecuta Jekyll en el siguiente formato:
 **2019-11-11 12:56:48 +0000**
 Pero al aplicarle un filtro, `| date: '%Y'` , nos quedaríamos con el año por lo que el resultado seria : **2019**
-*- site.author* devolveria el valor de la variable author que si no esta definida no tendría nada en su interior.
+- *site.author* devolveria el valor de la variable author que si no esta definida no tendría nada en su interior.
 
 Por lo que el resultado del codigo anterior seria:
 
 **© Copyright 2019**
 
-# dicar qué scripts se están invocando con el siguiente código
+# Indicar qué scripts se están invocando con el siguiente código
 
 ```
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
