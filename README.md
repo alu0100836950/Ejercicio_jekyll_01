@@ -79,7 +79,7 @@ En la siguiente imagen podemos ver como aparecería el *post* en la pagina princ
 
 *SOLUCION:*
 
-**PREGUNTAR MAÑANA JUEVES**
+En este caso se asigna con una variable a "episodes", que no son ni más ni menos que trozos de codigo y estos se ordenan por su peso. Posteriormen te se hace un for en donde por cada episodio hasta el sexto se crea un **div** en donde se incluye un codigo *html*.
 
 # Qué código html tendría como salida
 
@@ -157,6 +157,8 @@ Como en nuestro caso **baseurl** = "*/example*" los enlaces a los script quedar�
 ```
 
 *SOLUCION:*
+
+En el anterior codigo se asigna a una variable *paginas* las paginas del sitio ordenadas por el nombre(variable *name*) y por casda pagina se añade un elemento **li** con un texto que es el titulo de la página con una dirección a la **url** de dicha página.
 
 # Dada una colección de documentos con las siguientes variables en el frontmatter
 ```

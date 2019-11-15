@@ -1,4 +1,5 @@
-# FRONT_END_EJERCICIOS_JEKYLL
+# Practica de Jekyll
+
 * Alberto Martín Núñez
 
 El objetivo de esta práctica es conocer como es una estrutura con Jekyll y realizar una serie de ejercicios y modificaciones para familiarizarnos con Jekyll.
@@ -58,7 +59,7 @@ Una vez creado y con el server corriendo simplemente al guardar el archivo se no
 
 
 En la siguiente imagen podemos ver como aparecería el *post* en la pagina principal(*parte izquierda de la imagen*) y también como severía el post una vez entremos en él(*parte derecha de la imagen*).  
-      
+
 
 <img src="img/post_view.png" alt="Vistazo a la creacion del nuevo post">
 
@@ -78,7 +79,7 @@ En la siguiente imagen podemos ver como aparecería el *post* en la pagina princ
 
 *SOLUCION:*
 
-**PREGUNTAR MAÑANA JUEVES**
+En este caso se asigna con una variable a "episodes", que no son ni más ni menos que trozos de codigo y estos se ordenan por su peso. Posteriormen te se hace un for en donde por cada episodio hasta el sexto se crea un **div** en donde se incluye un codigo *html*.
 
 # Qué código html tendría como salida
 
@@ -115,16 +116,16 @@ En el cuerpo del html se incluye un fichero *nav.html* y posteriormente el conte
 
 En el codigo tenemos una etiqueta **footer** (pie de pagina). Dentro de ella hay otra etiquete **p**(párrafo) con una *clase* que se llama small y con un contenido "**© Copyright {{ site.time | date: '%Y' }} {{ site.author }}**" en donde podemos destacar las siguientes variable Jekyll:
 
-*- site.time* devuelve la hora cuando se ejecuta Jekyll en el siguiente formato:
+- *site.time* devuelve la hora cuando se ejecuta Jekyll en el siguiente formato:
 **2019-11-11 12:56:48 +0000**
 Pero al aplicarle un filtro, `| date: '%Y'` , nos quedaríamos con el año por lo que el resultado seria : **2019**
-*- site.author* devolveria el valor de la variable author que si no esta definida no tendría nada en su interior.
+- *site.author* devolveria el valor de la variable author que si no esta definida no tendría nada en su interior.
 
 Por lo que el resultado del codigo anterior seria:
 
 **© Copyright 2019**
 
-# dicar qué scripts se están invocando con el siguiente código
+# Indicar qué scripts se están invocando con el siguiente código
 
 ```
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -133,6 +134,13 @@ Por lo que el resultado del codigo anterior seria:
   
 ```
 *SOLUCION:*
+
+En la primera línea esta incluyendo un script que viene dado por una ruta absoluta a la pagina donde esta alojado el fichero js.
+En los otros dos casos esta usando la variable **baseurl**, que debe estar inicializada en el *_config.yml* y la esta añadiendo al principio de "/". 
+Como en nuestro caso **baseurl** = "*/example*" los enlaces a los script quedarían de la siguiente forma:
+
+ - */example/assets/js/highlight.js*
+ - */example/assets/js/highlight.js*
 
 # Indica el resultado que se obtiene con el siguiente código, sabiendo que paginas corresponde la colección de almacenada en _characters
 
@@ -149,6 +157,8 @@ Por lo que el resultado del codigo anterior seria:
 ```
 
 *SOLUCION:*
+
+En el anterior codigo se asigna a una variable *paginas* las paginas del sitio ordenadas por el nombre(variable *name*) y por casda pagina se añade un elemento **li** con un texto que es el titulo de la página con una dirección a la **url** de dicha página.
 
 # Dada una colección de documentos con las siguientes variables en el frontmatter
 ```
