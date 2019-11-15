@@ -180,3 +180,5 @@ Indicar que objetivon tiene el siguiente include:
 
 *SOLUCION:
 
+En este ejercicio se crea un enlace a "url" que creo que estaría mal y que en realidad debería de estar *thumbnail_url*, ese enlace no es más ni menos que una imagen cuya url creo que tambien esta mal y tendría que ser *image_url*, junto con un **div** donde aparece el *titulo*.
+
