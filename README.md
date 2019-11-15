@@ -166,7 +166,7 @@ thumbnail_url:  https://XXX
 image_url: https://
 
 ```
-Indicar que objetivon tiene el siguiente include:
+Indicar que objetivo tiene el siguiente include:
 
 ```
 <a href="{{ character.url }}" class="character-preview">
