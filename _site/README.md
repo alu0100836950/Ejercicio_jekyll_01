@@ -21,15 +21,14 @@ Podemos destacar de esta estructura cosas nuevas como:
 * - Los posts --> Donde crearemos y se almacenarán nuestros posts
 * - _site --> Tendremos todo el contenido de nuestra página 
 
-Para familiarizarnos con Jekyl vamos a hacer dos tareas: Añadiremos dos pagina y un post adicionales al proyecto.
+Para familiarizarnos con Jekyl vamos a hacer dos tareas: Añadiremos dos páginas y un post adicionales al proyecto.
 
-# Añadiendo dos paginas adicionales al proyecto
+# Añadiendo dos páginas adicionales al proyecto
 
-Se le ha añadido dos páginas adicionales a este proyecto con Jekyllllamadas *Contact* y *Products* de la siguiente forma:
+Se le ha añadido dos páginas adicionales a este proyecto con Jekyl llamadas *Contact* y *Products* de la siguiente forma:
 
-Se han creado dos ficheros **MarkDown** con cada nombre y se ha modificado dentro del fichero el FronMatter y se ha puersto un texto en negrita para corroborar que se crea esa pagina al pinchar en ella.
+Se han creado dos ficheros **MarkDown** con cada nombre y se ha modificado dentro del fichero el *FronMatter* y se ha añadido un texto en negrita para corroborar que se crea esa página al pinchar en ella.
 
-*About se refleja pero about ya esta creado*
 
 - Estructura con los ficheros markdown creados en el proyecto
 
